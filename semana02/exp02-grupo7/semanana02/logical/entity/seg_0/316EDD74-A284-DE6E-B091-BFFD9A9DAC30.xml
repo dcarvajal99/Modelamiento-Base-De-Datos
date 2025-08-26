@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="316EDD74-A284-DE6E-B091-BFFD9A9DAC30" name="VUELO">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>93C6936B-6C9A-1270-883C-F02C4857E61A</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_vuelo" id="8EF20D29-3175-893D-0EEC-D3F558E9C994">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>B34E665A-115A-3DF9-B78D-0109777D6CE4</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="despegue_ts" id="9F7E680E-1F6C-98A7-3FB7-353A1515D8EA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>62035F0C-C38B-56C2-05D0-67197F268131</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="llegada ts" id="B3B02725-AFBB-5C76-47CA-41A5BD796214">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>2BC8F751-C814-AC3A-ECA8-F9F19D0CFD1B</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_origen" id="27DE9E70-3181-0C19-DDF2-C5D919279367">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>A9A0A516-8565-8637-7917-197F3B5A4616</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_llegada" id="A9583F30-A765-2F91-FEDF-7F181AB3E2F3">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>6B6ED2A7-9E9D-4D43-CCCC-A640A7EF5052</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_avion" id="4C9B575D-5F39-9352-36CF-00F148F381C1">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>34BB9290-EB93-6057-A601-B3543B5B8DC7</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>8D2C438C-3151-C7E0-041F-504A0FDCD66A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2609B8A-A9CD-F3DF-6A6F-58E58AEE2350" name="VUELO PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>58A9C364-6849-1A29-ABA1-A9B636465CB7</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EF20D29-3175-893D-0EEC-D3F558E9C994</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

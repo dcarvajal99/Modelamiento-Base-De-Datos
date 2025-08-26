@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PILOTO_VUELO_VUELO_FK" directorySegmentName="seg_0" id="1D1CE60D-15CC-0EFD-06A8-772701A04FDE">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>0A8AE119-9250-059A-F782-29A8BDC324C8</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<sourcePk>F2609B8A-A9CD-F3DF-6A6F-58E58AEE2350</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>316EDD74-A284-DE6E-B091-BFFD9A9DAC30</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAD00383-9852-D8C3-4A8E-B1035AAB90D2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9B1CAACF-18D7-E1F5-ED6D-28125FFDC441" name="EQUIPAJE">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>CEAF3443-6A4E-C9E4-DC90-AE3437599545</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo_maleta" id="36AA5AEA-671E-A3B3-D7A6-93789F21F335">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>92131CCA-B315-760E-1BBA-FC8A4EA4D08D</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color_maleta" id="557FBDE9-20B8-0A22-9AFA-F6466A5113CF">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>E9C32B84-7570-26DA-227B-70FDF6E1B3C1</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="3EA3A3A6-9A6B-6AB8-261D-79D427095658">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>149BF2F5-E059-3D36-5B0A-A566E56794D9</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="273A7FDD-1028-36E8-7F29-523B5598F569">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>45C3755A-38A7-F230-2218-9884BF28829B</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pasaporte_rut" id="5A94F5EF-9217-30BB-D133-76607F956293">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>0C811545-1EA1-52AD-87B4-2422A6685B67</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>A8D8794E-437B-6DDD-C89E-A847526D5B09</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F03290E-62E7-615E-AE8B-2EB5EA1A2182" name="EQUIPAJE PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>1C5EC24F-AA1B-885D-924F-B3AEF646F914</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

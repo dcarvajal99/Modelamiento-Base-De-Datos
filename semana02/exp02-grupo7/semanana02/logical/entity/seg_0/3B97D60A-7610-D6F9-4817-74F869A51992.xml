@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B97D60A-7610-D6F9-4817-74F869A51992" name="RESERVA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>82DFBB5A-10CE-BE24-766A-A9726792A992</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_reserva" id="C01CAA30-9076-289E-13D7-3D13B8BE0492">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>55409FC3-2200-A49E-5082-B43F5218D32C</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="CDCC6D6A-D723-0216-8EB2-EF56F46DC0B3">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>AF8012ED-E20C-D526-6036-FB96044EC778</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="92BA3CB1-ACF3-3E2C-56D1-9379477F755A">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>A9D8851D-359B-E5A9-916C-8E79071660D2</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B2E8A849-9103-2D81-0C38-EE23558CB05E">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>6D894D41-3A72-426D-C8F7-724B893A8ED7</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="asiento" id="6F9C83E9-3626-90D7-1963-1F69A0141693">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>2EFEC8E3-9E3A-0111-4BC9-1A4E255FA043</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo" id="973EBBE5-BCCB-37F9-B128-B29A17F2C520">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>33D217B0-932E-B3E1-6C84-AB0B5FA324D2</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>8EF20D29-3175-893D-0EEC-D3F558E9C994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_pasaporte_rut" id="F2AC0F58-6826-4386-0FFC-4177BD8EC1F1">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>F6514BFA-5D09-49D2-4C7F-F58696B1B934</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>A8D8794E-437B-6DDD-C89E-A847526D5B09</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut" id="215F20A3-33B0-0992-E8B8-32D1B88CDAC1">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>45E39D9C-F6BF-0887-4C11-24906BB5D4CC</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>64ED2763-B4A0-3C15-EBCE-CF481A19C146</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="59C6B0B3-9ACB-6E87-7E33-0787B783E343" name="RESERVA PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>89C83E35-6F7F-374D-9A73-88FFA3744009</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C01CAA30-9076-289E-13D7-3D13B8BE0492</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="7EFEC68F-A2C0-507C-A9DE-6F2BE18FCDD9" name="UQ ASIENTO POR VUELO">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>2BCC1325-23BF-04F5-EADD-CF1C6A9A17C1</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>973EBBE5-BCCB-37F9-B128-B29A17F2C520</attributeRef>
+<attributeRef>6F9C83E9-3626-90D7-1963-1F69A0141693</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

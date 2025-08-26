@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F1C45C1-D9DA-9C2C-CBE3-5E26A16E8AEF" name="PILOTO">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>AB25F57E-775C-DB3C-501A-E23F7F0829AF</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="7FBDFD7D-2C60-BC82-9C87-0D38468BF802">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>01D65743-E0AF-B50A-4777-1A2DDAB2983C</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<referedAttribute>7F560B6A-E481-F6EC-7164-438F5E80886D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad_hora_vuelo" id="222CB77B-9571-D69D-DEC6-803D4E0C559C">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>0B1D4D6A-A9D2-AD75-7B01-6A0AF7106E41</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="FE865C56-5A62-E699-947E-8BA1F866496B">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>B57243CB-13A9-9D72-B0FE-47270716B978</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D1CF7FC-D552-F040-CE2D-75ACBB263020" name="PILOTO PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-08-26 03:54:21 UTC</createdTime>
+<generatorID>51B4A132-B926-83C1-AF26-3B060B2FBE7F</generatorID>
+<ownerDesignName>semanana02</ownerDesignName>
+<engineerTo>
+<item key="40B6EB5C-D332-62FD-92D6-3091A4C3361C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FBDFD7D-2C60-BC82-9C87-0D38468BF802</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
