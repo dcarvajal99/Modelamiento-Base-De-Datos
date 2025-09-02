@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="008B4C34-376E-51D0-AC06-F26089126AEE" name="ASIGNACION HABITACION">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>42E5B4E3-A939-79AB-0E4B-DABB28F02391</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asignacion" id="A08A8012-A7B1-CD04-FB8B-EC7823ECC437">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>3DA39B5E-09E0-539A-5EE9-4A15DA8F9756</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_residente" id="C4C91BEE-83DE-9AC7-F623-384CEEA9C2A0">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>E68E1233-722C-4618-BB19-38D918BFE4DC</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<referedAttribute>D94893F3-680E-B645-4078-9B3CBF9F035C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_habitacion" id="A4DDD890-45CE-8CE3-46C9-CD0B254567C0">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>888F4355-23AF-993D-7DD1-D78E89A56740</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<referedAttribute>6BBB029A-6254-0306-32ED-10F5D485DD08</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="C3820205-0A7E-2602-4A9D-070187F2B772">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>21FCFD82-2D0D-0093-DA8E-DF6C8377BC2F</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_termino" id="86BF1F3F-4F4D-E1BF-2F23-BE3BF5DDD0CA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>BA13F101-3E0B-44FA-2461-265E51327F4A</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5D9C634D-CA9C-DC5F-906C-2805FE83BC24" name="ASIG HAB PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>BA9FFAFD-7DF6-4DDA-6DC3-E4719EAEFB2E</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A08A8012-A7B1-CD04-FB8B-EC7823ECC437</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CF3468B-0876-7A99-5627-01A90C690673" name="ANEXO">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>20B57087-4959-EC8D-26A3-E3D7C8E9AFC6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anexo" id="3A4E1569-D107-AE28-0B02-2EE52FB4D25F">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>F043338A-6035-3E89-C520-B9AF282743CF</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>887C6E8A-2CC8-ADE2-1BB8-54C77E2C8BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATO_id_contrato" id="A32A371E-5513-7807-38CA-B83D87A553CE">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>B2171D78-19D7-8A13-6A61-2911E17578DD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>887C6E8A-2CC8-ADE2-1BB8-54C77E2C8BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C909AD0F-2D1F-F8BE-1952-99FE172DE626" referredColumn="14F33C0D-ACCA-38FD-E581-48BC2A64AB27"/>
+</associations>
+</Column>
+<Column name="RESIDENTE_id_residente" id="09F5312C-265F-BFEE-A7F9-E20FA5D4739E">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>3E165003-21AD-1A3D-1288-2D58CE80CA83</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>887C6E8A-2CC8-ADE2-1BB8-54C77E2C8BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5CD310A3-E8A7-6D25-C0D4-49891E3AC592" referredColumn="77D6BB19-A542-E90E-D7D1-3E2D9A4D9FE2"/>
+</associations>
+</Column>
+<Column name="fecha_inicio" id="99D19DEE-CD43-1936-02B4-BBEA137CED51">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>F0CA420E-FE81-0DC6-C587-9C779D30E35C</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4D4447A1-D3A7-8392-FC12-CF84E4A30466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_termino" id="07F99604-E3DF-51C0-BF38-6B461DBA26AB">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>29B99EA5-5928-0CCC-05BF-2C35C9274EF2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>4D4447A1-D3A7-8392-FC12-CF84E4A30466</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observaciones" id="97D518C1-B7F0-B7B8-608A-FE12A32BE6DA">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>092176A5-D340-58EB-11BF-15719C50FDE1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0A72F530-4F46-39EA-9D96-CE6AAF582E8E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="191FEF4D-17F0-8035-0F04-296052B84243" name="ANEXO_PK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>46D3366B-2340-5D6B-6953-2C31CA16DE56</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A4E1569-D107-AE28-0B02-2EE52FB4D25F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F58614B6-5B67-A010-18DB-C5F235929F8F" name="IX_ANEXO_CONT">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>C255CF46-5755-6AF1-5A5F-A99714E969B8</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32A371E-5513-7807-38CA-B83D87A553CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E06D113-3F1A-D282-1210-7675B5BC7E3F" name="IX_ANEXO_RES">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>491D8528-BF42-DB56-D77E-FC1CF6854C4A</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F5312C-265F-BFEE-A7F9-E20FA5D4739E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6FB2199-FBE1-32EE-D294-2F3444228439" name="ANEXO_CONTRATO_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32A371E-5513-7807-38CA-B83D87A553CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF285BF3-3865-FFB5-ACD3-A5E7CCB0EDD6" name="ANEXO_RESIDENTE_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09F5312C-265F-BFEE-A7F9-E20FA5D4739E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_ANEXO_FECHAS" directorySegmentName="seg_0" id="5B4EAE3D-E929-D1F1-6EEA-206E8422B0BB">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>09F85550-F1DC-59BB-E874-57A4FB5D6013</importedID>
+<rule><![CDATA[fecha_termino IS NULL OR fecha_termino >= fecha_inicio]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51B92004-ED60-14FE-07B3-FB7742C94C0E" name="RESIDENCIA">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>E95195D2-F3F3-653A-B7E1-C6F172ACD314</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_residencia" id="B065DB5B-9790-0769-2EC5-5E0776426B0E">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>0C9E17C5-9EA9-FB6F-5085-FC9797F1F716</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>887C6E8A-2CC8-ADE2-1BB8-54C77E2C8BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7CD6C5B7-8E7D-DF8D-5289-136CED2D1269">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>DFE8A3B8-D6CC-7E0D-3038-557913DF77CD</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EDB0034C-45F2-D580-B80D-82442DF61B28</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="2C445468-EB5A-A8B5-F2B2-1A1548CAFB34">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>804A53AA-E1C9-320D-AE66-DC13CD3F9F8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>520DF61B-0C99-2C8C-CD74-4023298334F9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="67ADAD08-1545-7A9D-AC6D-6B7B6BBE27AE">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>832EDCBB-4E7A-3163-045F-5A244E9E4EBF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01092EF2-5756-532B-CC52-A0F56A6B7879</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7C48F73D-4F8B-921F-52D2-FFA1601D0865" name="RESIDENCIA_PK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>5431C299-A841-AC77-D9D8-82B07C4C6924</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B065DB5B-9790-0769-2EC5-5E0776426B0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

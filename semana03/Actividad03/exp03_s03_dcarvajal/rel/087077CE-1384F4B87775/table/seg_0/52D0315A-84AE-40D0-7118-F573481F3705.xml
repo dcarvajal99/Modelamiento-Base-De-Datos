@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52D0315A-84AE-40D0-7118-F573481F3705" name="RESIDENTE_PERMANENTE">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>06B813C8-034C-EB88-CAF2-4E7A6087CA4A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_residente" id="58EB28D2-8365-6566-760C-3F57B53ECC51">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>08240840-ABE4-D6E5-AD22-DCC3B9BA535A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>887C6E8A-2CC8-ADE2-1BB8-54C77E2C8BBA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97207AB3-26F0-0A21-EE9B-6A76DC7408F3" referredColumn="77D6BB19-A542-E90E-D7D1-3E2D9A4D9FE2"/>
+</associations>
+</Column>
+<Column name="seguimiento_clinico" id="4F904233-7F9D-73DB-E0AB-15A226B69C82">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>568B30B5-CDA9-4D79-628E-F0080B3D922A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C364DC6E-2BAA-9F64-D876-B8FC5DA2B148</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_residente1" id="1AD1E6C4-AFC5-D5D5-EDC6-D3DF00D90152">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>D94893F3-680E-B645-4078-9B3CBF9F035C</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EE1D263-53FB-46AA-BDD4-D2B5AF87303B" name="RESIDENTE_PERMANENTE_PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>065E8A75-CA53-0889-955E-A524EE1D4475</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD1E6C4-AFC5-D5D5-EDC6-D3DF00D90152"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A37D9238-5C99-01D3-E957-3E470CE89A02" name="RES_PERM_PK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>73A1F1A9-4322-33E6-D8FE-E3E5C425A210</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EB28D2-8365-6566-760C-3F57B53ECC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A280238-F20E-1038-A1ED-5BB553479DEB" name="RES_PERM_RESIDENTE_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EB28D2-8365-6566-760C-3F57B53ECC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

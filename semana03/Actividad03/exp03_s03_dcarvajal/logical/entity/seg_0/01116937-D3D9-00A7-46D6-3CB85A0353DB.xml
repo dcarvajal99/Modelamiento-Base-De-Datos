@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="01116937-D3D9-00A7-46D6-3CB85A0353DB" name="APODERADO">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>D1A9201C-A829-82AE-0A43-6DCB47346089</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="342DF697-E34E-05A1-BE82-FC157CAFFC85">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>514825E7-6F33-B6F0-E896-BABD4AA1257D</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="0758D52D-E8FA-F63E-36AC-AB29DCA0219E">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>1D479219-54DB-74F1-EDEA-E141964D1D4F</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="B8A31AEA-A197-C581-7305-13E19B7A0112">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>8489BF0D-8227-4B7C-C9C0-79AD2C615D6E</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E1919F32-A9AF-070B-8561-D90EABBC5D5C">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>A5C02F8D-9401-7265-D014-B18CEE62D3C3</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAF2E989-36F3-FCC8-0736-2F2B9E185CCF" name="APODERADO PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>58575DB2-D6BB-9ACB-7006-DF1D67362F68</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>342DF697-E34E-05A1-BE82-FC157CAFFC85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

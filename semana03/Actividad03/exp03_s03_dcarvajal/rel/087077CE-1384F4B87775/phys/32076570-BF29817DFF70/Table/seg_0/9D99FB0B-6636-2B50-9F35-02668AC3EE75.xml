@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MEDICO_SUPERVISOR" directorySegmentName="seg_0" id="9D99FB0B-6636-2B50-9F35-02668AC3EE75">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nombre" id="1A369CAE-FFEA-A1D6-9B19-16CA760A0C21">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_medico_supervisor" id="D19A8ABE-D593-5D84-580A-4F1B294F3A4F">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEDICO_SUPERVISOR_PK" id="2F9C7F4F-AEEB-F608-3628-CEF51AE68578">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

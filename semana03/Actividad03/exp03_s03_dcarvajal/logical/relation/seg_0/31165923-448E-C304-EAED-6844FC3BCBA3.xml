@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRATO_APODERADO_FK" directorySegmentName="seg_0" id="31165923-448E-C304-EAED-6844FC3BCBA3">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>812F42F7-F7D9-BAB9-3E9C-1F86A98AF825</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<sourcePk>AAF2E989-36F3-FCC8-0736-2F2B9E185CCF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>01116937-D3D9-00A7-46D6-3CB85A0353DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87C67317-05DD-617E-90DD-71C6C86BE2B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

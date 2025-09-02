@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3CAE1F0-99FC-D65F-228F-EB2624A9B71E" name="CUIDADOR">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>6E8ACA5D-6815-0467-D7F0-FB4010695899</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="A50254D1-0D27-F8AD-33CF-A74D6AF66189">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>351BC6E2-B600-595C-9134-DA7B1FCD994C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FEA9FC6-CB1F-0A54-3E81-1FC74762E657</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9370E30-B05C-BBFF-8EAE-02A6CDC75609" referredColumn="C94E548C-CEE4-E9BD-A24B-D2B6AC0D8F67"/>
+</associations>
+</Column>
+<Column name="labores" id="F6D9ABB7-9B2D-480C-3A3E-79FD8D1C08DE">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>0FBC87C6-2FC0-CBC0-7DE2-243FC0170C1D</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuidador_id" id="C87C4613-8F5A-8A1F-2F29-9C94121D1A86">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>3C7BB14D-FF2D-D76A-FDBE-AF618D513254</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7FBC0297-DC87-BB3A-64FC-D28518A66C25" name="CUIDADOR_PKv1">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>1FEC846E-9859-D5A3-4D1B-88D232B875E5</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="B3A314BF-235C-F597-EC4E-D98EE762C6DF" name="CUIDADOR_PK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>1B2A9995-DE3D-BA04-3DDB-ECAA2F60FA20</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C87C4613-8F5A-8A1F-2F29-9C94121D1A86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F30819F-8693-B414-34E9-19433CC4C1AA" name="CUIDADOR_PERSONAL_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A50254D1-0D27-F8AD-33CF-A74D6AF66189"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40E7F734-AF6F-1FD2-ECA5-B8C4C79C56A9" name="RESIDENCIA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>51B92004-ED60-14FE-07B3-FB7742C94C0E</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_residencia" id="CAB9D770-8EC0-88FB-5148-C133B098848F">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>B065DB5B-9790-0769-2EC5-5E0776426B0E</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="179E5375-B87B-545B-CAD6-4CF54CD7C257">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>7CD6C5B7-8E7D-DF8D-5289-136CED2D1269</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna" id="4307BFF2-8A7D-E409-EA21-F6A9AD34B3CA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>2C445468-EB5A-A8B5-F2B2-1A1548CAFB34</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="35989F01-3659-EC84-4BA1-B829A55CAC6E">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>67ADAD08-1545-7A9D-AC6D-6B7B6BBE27AE</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="712A5B14-9431-2878-2E8C-FA10C59C08DC" name="RESIDENCIA PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>7C48F73D-4F8B-921F-52D2-FFA1601D0865</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CAB9D770-8EC0-88FB-5148-C133B098848F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

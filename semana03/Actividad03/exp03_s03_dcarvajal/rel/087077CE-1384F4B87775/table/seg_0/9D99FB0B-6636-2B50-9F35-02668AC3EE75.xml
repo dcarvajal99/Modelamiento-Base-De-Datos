@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D99FB0B-6636-2B50-9F35-02668AC3EE75" name="MEDICO_SUPERVISOR">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>E5640498-FFD1-209C-E983-FE023EEC7121</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_medico_supervisor" id="D19A8ABE-D593-5D84-580A-4F1B294F3A4F">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>99614D4F-C396-3B46-ED28-35DFD5FC8CCB</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1A369CAE-FFEA-A1D6-9B19-16CA760A0C21">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>3EBFBA17-83B0-7481-BA46-F4FC2B82F010</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F9C7F4F-AEEB-F608-3628-CEF51AE68578" name="MEDICO_SUPERVISOR_PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>4E5038FF-ECAC-E4CE-D05C-41E13C13C8D6</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D19A8ABE-D593-5D84-580A-4F1B294F3A4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

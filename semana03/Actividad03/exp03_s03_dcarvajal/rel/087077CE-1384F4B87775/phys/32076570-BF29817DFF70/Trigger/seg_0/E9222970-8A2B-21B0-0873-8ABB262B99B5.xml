@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_ASIG_HAB_NO_SOLAPE" directorySegmentName="seg_0" id="E9222970-8A2B-21B0-0873-8ABB262B99B5">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:19 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE
+  v_cnt NUMBER;
+BEGIN
+  -- Solape por RESIDENTE (otra asignación activa que se cruce en el tiempo)
+  SELECT COUNT(*) INTO v_cnt
+  FROM ASIGNACION_HABITACION a
+  WHERE a.id_residente = :NEW.id_residente
+    AND a.id_asignacion <> NVL(:NEW.id_asignacion, -1)
+    AND (a.fecha_termino IS NULL OR a.fecha_termino > :NEW.fecha_inicio)
+    AND (:NEW.fecha_termino IS NULL OR a.fecha_inicio < :NEW.fecha_termino);
+  IF v_cnt > 0 THEN
+    RAISE_APPLICATION_ERROR(-20014, 'El residente ya tiene una habitación activa en el período indicado.');
+  END IF;
+
+  -- Solape por HABITACIÓN (otro residente activo en la misma pieza)
+  SELECT COUNT(*) INTO v_cnt
+  FROM ASIGNACION_HABITACION a
+  WHERE a.id_habitacion = :NEW.id_habitacion
+    AND a.id_asignacion <> NVL(:NEW.id_asignacion, -1)
+    AND (a.fecha_termino IS NULL OR a.fecha_termino > :NEW.fecha_inicio)
+    AND (:NEW.fecha_termino IS NULL OR a.fecha_inicio < :NEW.fecha_termino);
+  IF v_cnt > 0 THEN
+    RAISE_APPLICATION_ERROR(-20015, 'La habitación ya está asignada a otro residente en ese período.');
+  END IF;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>71685FA2-E3B2-D48C-7D99-B1794FF94444, 68C39D8B-83E5-6FBE-4443-36EEC283703D, 21FCFD82-2D0D-0093-DA8E-DF6C8377BC2F, BA13F101-3E0B-44FA-2461-265E51327F4A</columns>
+<table>42E5B4E3-A939-79AB-0E4B-DABB28F02391</table>
+</TriggerOraclev10g>

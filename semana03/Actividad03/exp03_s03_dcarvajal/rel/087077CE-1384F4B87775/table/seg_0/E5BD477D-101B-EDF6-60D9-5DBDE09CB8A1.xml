@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5BD477D-101B-EDF6-60D9-5DBDE09CB8A1" name="MEDICO">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>7CFBD39C-32C7-2267-6F84-20E75AFE2F71</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="F828B9D1-0FE9-2587-C8B1-3D16799C75F5">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>CDBFF1B6-8855-8183-7311-003E74F4F891</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FEA9FC6-CB1F-0A54-3E81-1FC74762E657</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5B23CC1-EFA3-9A7C-592C-B7E9A103567A" referredColumn="C94E548C-CEE4-E9BD-A24B-D2B6AC0D8F67"/>
+</associations>
+</Column>
+<Column name="especialidad" id="46FF27F7-A2CF-86F5-F4EC-B3A554119BD3">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>090C583B-2CAC-1D06-F29D-2F34ADC4CEEA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0196C75B-002B-4F5B-8D1B-EEF5062B351B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="supervisor_rut" id="34B6E8DE-245A-C04F-A12B-BBEE25362EBF">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>72BA5CB8-C5EF-9B74-86CA-820055A4EE0F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7FEA9FC6-CB1F-0A54-3E81-1FC74762E657</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEDICO_SUPERVISOR_id_medico_supervisor" id="FDBD7507-8B44-C650-E274-61F11EFEEB98">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>AA5EF718-3FDD-1B5E-05D5-5446B5EBA3C9</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F332E94F-7647-434E-408D-2147D3AF85A4" referredColumn="D19A8ABE-D593-5D84-580A-4F1B294F3A4F"/>
+</associations>
+</Column>
+<Column name="id_medico" id="63D38993-C76E-2E00-7DB0-50D151FC532E">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>5A5C747C-3E16-D7B8-9C5E-2EFAEB60E719</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C209607-3926-793A-1135-4C83569A847E" name="MEDICO_PKv1">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>1FEC846E-9859-D5A3-4D1B-88D232B875E5</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="57DA98DC-802D-66FE-83C4-A07D7F0C174A" name="MEDICO_PK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>5D5BE234-1D29-8051-44CA-E1B4418FCB4E</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D38993-C76E-2E00-7DB0-50D151FC532E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A29C170C-088D-B2B6-FBDD-D1808C558D8D" name="IX_MED_SUP">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>7AE7FFEA-3285-3ED9-A362-F9B931DA8898</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B6E8DE-245A-C04F-A12B-BBEE25362EBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93237C5A-9879-6573-7EEE-04974C62C178" name="MEDICO__IDX">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E74C261-C2FA-838E-8BA6-137BCA77CD2F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FDBD7507-8B44-C650-E274-61F11EFEEB98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="250BB3AA-EE5A-819C-49B1-BC929C5119E1" name="MEDICO_PERSONAL_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F828B9D1-0FE9-2587-C8B1-3D16799C75F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09659F27-AC46-F8DD-C7B3-6333748121B9" name="MEDICO_MEDICO_SUPERVISOR_FK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 03:32:30 UTC</createdTime>
+<generatorID>7E74C261-C2FA-838E-8BA6-137BCA77CD2F</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDBD7507-8B44-C650-E274-61F11EFEEB98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHK_SUPERVISOR_SELF" directorySegmentName="seg_0" id="944558A9-871D-0378-9CF6-2FFBDF231630">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>93DD9209-5B00-8F0D-DD0E-7A1E45A56B72</importedID>
+<rule><![CDATA[supervisor_rut IS NULL OR supervisor_rut <> rut]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

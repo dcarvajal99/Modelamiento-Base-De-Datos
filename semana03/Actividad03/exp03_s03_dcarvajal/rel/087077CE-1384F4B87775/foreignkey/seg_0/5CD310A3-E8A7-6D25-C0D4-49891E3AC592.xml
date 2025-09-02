@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5CD310A3-E8A7-6D25-C0D4-49891E3AC592" containerWithKeyObject="4CF3468B-0876-7A99-5627-01A90C690673" localFKIndex="EF285BF3-3865-FFB5-ACD3-A5E7CCB0EDD6" name="ANEXO_RESIDENTE_FK">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:24 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<importedID>A891004A-0650-7339-1A22-8FF185ED7A2E</importedID>
+<referredTableLongName>RESIDENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>620F742A-8128-41C5-B14D-61EFDF4E731C</referredTableID>
+<keyObject>F09F9BF9-9747-367B-FB9E-16AA362FEDA7</keyObject>
+<referredKeyID>F09F9BF9-9747-367B-FB9E-16AA362FEDA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_residente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

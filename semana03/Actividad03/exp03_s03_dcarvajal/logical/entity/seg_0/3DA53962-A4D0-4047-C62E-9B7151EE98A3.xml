@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DA53962-A4D0-4047-C62E-9B7151EE98A3" name="HABITACION">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>B3BB9F85-1868-855D-347F-E3926AD04069</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_habitacion" id="6BBB029A-6254-0306-32ED-10F5D485DD08">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>34C6B292-8E6D-7686-6AD9-99CB54E383DD</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_residencia" id="2556E8A7-648B-906B-6798-CFEF1692EC38">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>142929CC-8D6D-7C2C-86B8-5352E85AE03C</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<referedAttribute>CAB9D770-8EC0-88FB-5148-C133B098848F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="BCED39BE-C393-CC0C-A5E5-969E2A1E4A62">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>72AD9BD6-8F68-B5BA-F537-89FE5037241E</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="950AB3D0-6F88-C11E-DE46-37A026B8C2FB">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>9299BC56-06D0-D68A-2612-A30B7D9679F0</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34F19BE3-C203-B8B3-ABD5-2600D9858901" name="HABITACION PK">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>41B56F4C-C28E-BC14-5720-E24E31873FEE</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BBB029A-6254-0306-32ED-10F5D485DD08</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="120699CC-8E14-6610-79BC-863D473AB0A8" name="UQ HABITACION RESIDENCIA">
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:38 UTC</createdTime>
+<generatorID>D40E106A-FD31-23F5-2852-6589AD9CAB09</generatorID>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<engineerTo>
+<item key="087077CE-AFD7-CB8B-4824-1384F4B87775" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>2556E8A7-648B-906B-6798-CFEF1692EC38</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

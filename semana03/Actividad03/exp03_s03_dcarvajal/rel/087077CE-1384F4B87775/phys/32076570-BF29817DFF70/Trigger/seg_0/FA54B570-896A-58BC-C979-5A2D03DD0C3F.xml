@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRG_RES_XOR_TEMP_PERM" directorySegmentName="seg_0" id="FA54B570-896A-58BC-C979-5A2D03DD0C3F">
+<sourceDDLFile>semana03.sql</sourceDDLFile>
+<createdBy>diegocarvajalarias</createdBy>
+<createdTime>2025-09-02 02:47:19 UTC</createdTime>
+<ownerDesignName>exp03_s03_dcarvajal</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[DECLARE v_cnt NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO v_cnt FROM RESIDENTE_PERMANENTE WHERE id_residente = :NEW.id_residente;
+  IF v_cnt > 0 THEN
+    RAISE_APPLICATION_ERROR(-20010, 'Un residente no puede ser TEMPORAL y PERMANENTE a la vez.');
+  END IF;
+END;]]></body>
+<triggerTime>AFTER</triggerTime>
+<table>DDCAF56E-8B0F-C1F6-20AB-1080935C8F8E</table>
+</TriggerOraclev10g>
