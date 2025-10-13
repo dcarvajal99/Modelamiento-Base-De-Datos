@@ -378,7 +378,6 @@ ALTER TABLE EMPLEADO ADD CONSTRAINT EMPLEADO_RUT_UK UNIQUE (rut);
 
 -- 4. AÑADIR LAS RESTRICCIONES DE VALIDACIÓN (CHECK)
 -- Se cambia el nombre de la columna "estado" a "estado_activo" para consistencia.
--- NOTA: Ejecuta esta línea solo si en tu script base la columna se llama "estado".
 ALTER TABLE EMPLEADO RENAME COLUMN estado TO estado_activo;
 
 -- Requisito: Validar que el estado del empleado solo sea 'S' o 'N'.
